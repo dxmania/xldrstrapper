@@ -6,3 +6,7 @@ description = "TI X-Loader bootstrapper over USB"
 license = "GPL-3.0-or-later"
 
 [dependencies]
+thiserror = "2"
+nusb = "0.2"
+futures-lite = "2"
+clap = { version = "4", features = ["derive"] }
