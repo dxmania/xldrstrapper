@@ -1,5 +1,5 @@
 ## TI OMAP4 X-Loader USB Bootstrapper Tool
-This repository contains a rust crate for Windows that allows pushing a stage2 loader to X-Boot, and jump to that loader to execute desired core. Known working on Pandaboard non ES, further testing is required to observe behaviour on other devices.
+This repository contains a rust crate for Windows that allows pushing a stage2 loader to X-Loader, and jump to that loader to execute desired code. Known working on Pandaboard non ES, further testing is required to observe behaviour on other devices.
 
 It should be nottes that this is not yet working on HS (high-security) fused key devices, and alternative methods will have to be discovered to run unsigned code on devices using their own secure X-Loader.
 
